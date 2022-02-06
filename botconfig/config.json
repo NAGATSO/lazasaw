@@ -1,0 +1,45 @@
+{
+   "prefix": "+",
+   "ownerIDS": [
+      "665055183079735300"
+   ],
+   "status": {
+      "text": "KartierServices",
+      "type": "STREAMING",
+      "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+      "url": "https://www.twitch.tv/kartierservices"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "https://Clan-Bot-Test-1.evilsourav.repl.co",
+            "port": 3000,
+            "password": "test"
+         }
+      ]
+   },
+   "spotify": {
+      "clientSecret": "3XWSLuJrYqM-cBnnglaQ6quM0LiaONZ8",
+      "clientID": "902809095160098827"
+   },
+   "settings": {
+      "COMMENT": "time_delay 0 === insta leave",
+      "leaveOnEmpty_Channel": {
+         "enabled": true,
+         "time_delay": 60000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": true,
+         "time_delay": 10000
+      },
+      "selfDeaf": true
+   },
+   "lyricssettings": {
+      "lyrics_finder": true,
+      "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
+      "ksoft_api": {
+         "use_this_instead": true,
+         "api_key": ""
+      }
+   }
+}
